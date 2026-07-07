@@ -1,6 +1,5 @@
 # ============================================================================
 # FULL DATASET RUN – ALL 5 SCENARIOS (E1, E2, E3, E4, E5)
-# FFNN + Online Learning (No drift detector for speed)
 # ============================================================================
 import pandas as pd
 import numpy as np
