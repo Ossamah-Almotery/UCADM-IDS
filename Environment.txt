@@ -1,0 +1,67 @@
+## Environment Setup
+1. Install Python
+2. Download Python 3.10.10 from python.org
+Run the installer and ensure "Add Python to PATH" is checked
+Verify installation:
+python --version
+# Output: Python 3.10.10
+
+2. Create Project Directory
+mkdir ConceptDrift
+cd ConceptDrift
+mkdir data code results figures models
+
+3. Install Required Libraries
+
+# Core Data Science
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+scipy>=1.10.0
+
+# Deep Learning
+tensorflow>=2.13.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Drift Detection
+frouros>=0.1.0
+
+# Development
+jupyter>=1.0.0
+ipykernel>=6.25.
+The following command can install all these dependencies. 
+"pip install numpy pandas scikit-learn scipy tensorflow matplotlib seaborn frouros jupyter ipykernel"
+
+4. Verify Installation
+Run this Python script to verify all libraries are installed correctly:
+
+import numpy as np
+import pandas as pd
+import sklearn
+import tensorflow as tf
+import matplotlib
+import seaborn as sns
+from frouros.detectors.concept_drift.streaming import ADWIN
+from frouros.detectors.concept_drift.streaming.window_based import ADWINConfig
+import scipy
+
+print(f"NumPy: {np.__version__}")
+print(f"Pandas: {pd.__version__}")
+print(f"Scikit-learn: {sklearn.__version__}")
+print(f"TensorFlow: {tf.__version__}")
+print(f"Matplotlib: {matplotlib.__version__}")
+print(f"Seaborn: {sns.__version__}")
+print(f"Frouros: ADWIN import successful")
+print("All libraries installed successfully!")
+
+5. Download Dataset
+Download the CSE-CIC-IDS2018 V2 dataset from Zenodo:
+https://doi.org/10.5281/zenodo.10149295
+Place CSE-CIC-IDS-2018-V2.csv in the data/ directory.
+
+6. Launch Jupyter Notebook
+Use this command in the terminal to run the jupyter notebook
+jupyter notebook
