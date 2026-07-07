@@ -15,7 +15,7 @@ Dataset
 Download the CSE-CIC-IDS2018 V2 dataset from Zenodo:
 https://doi.org/10.5281/zenodo.10149295
 
-Running the Project in Jupyter Notebook
+**Run Experiments in Jupyter Notebook**
 Creating a New Project in Jupyter Notebook
 Step 1: Launch Jupyter Notebook
 Open your terminal or command prompt and navigate to your project directory:
