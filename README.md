@@ -10,3 +10,7 @@ Evaluated on CSE-CIC-IDS2018 V2 (3.15M flows) across 5 drift scenarios, achievin
 
 ## Environment Setup
 Check the Environment.txt file for a complete setup configuration. 
+
+Dataset
+Download the CSE-CIC-IDS2018 V2 dataset from Zenodo:
+https://doi.org/10.5281/zenodo.10149295
